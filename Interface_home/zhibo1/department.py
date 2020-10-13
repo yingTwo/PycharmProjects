@@ -1,7 +1,7 @@
 import requests
 
 corpid = 'ww228382814e46e3a7'
-corpsecret = 'iton7ufNa898V0By7pZ8rmUpW0nPcXDSBIVc3BA3H-k'
+corpsecret = 'iton7ufNa898V0By7pZ8rmUpW0nPcXDSBIVc3BA3H-k'#注释
 
 def get_token():
     url = f'https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid={corpid}&corpsecret={corpsecret}'
